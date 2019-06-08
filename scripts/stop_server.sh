@@ -1,3 +1,4 @@
 #!/bin/bash
-echo "In" + $PWD
-echo "In" + $PWD
+echo "START STOPPING" + $PWD
+sudo pkill node
+echo "DONE STOPPING"
